@@ -1,0 +1,2 @@
+# Dugong
+program enkripsi XOR
