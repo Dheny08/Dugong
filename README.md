@@ -60,10 +60,10 @@ int main(int argc, char *argv[])
 
     rc4(plaintext,key,encrypted);
    
-    cout << "Data asli " << plaintext << endl<< endl;
-    cout << "Data encrypted " << encrypted << endl<< endl;
+    cout << "Plaintext  = " << plaintext << endl<< endl;
+    cout << "Enkirpsinya =  " << encrypted << endl<< endl;
     rc4(encrypted,key,decrypted); //encrypted sbg input
-    cout << "Data decripted " << decrypted << endl<< endl;
+    cout << "Dekripsinya =  " << decrypted << endl<< endl;
     
     return 0 ;
                  
